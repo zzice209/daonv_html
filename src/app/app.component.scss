@@ -1,0 +1,162 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.align-super {
+  vertical-align: super;
+}
+
+.container-fluid {
+  padding-left: 120px;
+  padding-right: 120px;
+
+  textarea {
+    padding-top: 8px;
+  }
+}
+
+.box-container {
+  padding-bottom: 16px;
+  .color {
+    .color-box {
+      height: 34px;
+      width: 34px;
+      background: aqua;
+    }
+    .text-color {
+      margin-left: 12px;
+    }
+  }
+  .text-description {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #7B7A7A;
+  }
+  .price {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #7B7A7A;
+  }
+}
+
+.image {
+  height: auto;
+  width: auto;
+  img {
+    width: 100%;
+  }
+}
+
+.box-image-container {
+
+  .box-image {
+    width: 360px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 64px;
+
+    .image_collar {
+      background: aqua;
+      height: 300px;
+      width: 360px;
+    }
+    .collar_title {
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 18px;
+      color: #000000;
+      padding-top: 16px;
+    }
+    .collar_description {
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 18px;
+      color: #7B7A7A;
+      padding-top: 8px;
+    }
+    .collar-info {
+      padding-top: 8px;
+      input {
+        width: 50px;
+      }
+    }
+  }
+}
+
+.choose-collar {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.background-image {
+  height: 1080px;
+  width: 100%;
+  padding-top: 32px;
+  background: url("../assets/images/background_photo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  margin-bottom: 200px;
+
+  .text-title-form {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+    padding-top: 135px;
+  }
+
+  .box-form {
+    padding-left: 128px;
+
+    .question {
+      font-size: 18px;
+      font-weight: 500;
+      color: #000000;
+      padding-bottom: 32px;
+
+    }
+    .box-form-slim,
+    .box-form-modern {
+
+      label {
+        font-size: 18px;
+        font-weight: 500;
+        color: #000000;
+      }
+
+      input[type="text"] {
+        width: 60px;
+        height: 34px;
+        margin-left: 4px;
+      }
+      input[type="checkbox"] {
+        height: 24px;
+        width: 28px;
+        marin-right: 16px;
+      }
+    }
+
+    .comment-area {
+      .comment-title {
+        font-size: 18px;
+        font-weight: 500;
+        color: #000000;
+        padding-bottom: 12px;
+      }
+    }
+
+    textarea {
+      width: 100%;
+    }
+
+  }
+}
+
+.btn-checkout {
+  margin: 0 auto;
+  background: #99E819;
+  width: 291px;
+  height: 55px;
+  text-align: center;
+}
